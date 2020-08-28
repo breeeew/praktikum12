@@ -1,0 +1,27 @@
+{
+  "name": "mesto_backend",
+  "version": "1.0.0",
+  "description": "Backend service for Mesto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node ./node_modules/.bin/nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "mesto"
+  ],
+  "author": "Abdulla Bairamly",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
