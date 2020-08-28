@@ -1,5 +1,5 @@
 const {Router} = require('express');
-const { readJSONByType } = require('../utils');
+const {readJSONByType} = require('../utils');
 
 const cardsRouter = Router();
 
